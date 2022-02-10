@@ -42,7 +42,7 @@ function Intro() {
   return (
     <div>
       <video loop autoPlay muted id="background">
-        <source src={require('/src/assets/neon-background.mp4')} />
+        <source src={require('./src/assets/neon')} />
       </video>
     </div>
   );
