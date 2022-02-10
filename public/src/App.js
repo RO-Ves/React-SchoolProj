@@ -38,14 +38,14 @@ function Test() {
   );
 }
 
-function Intro(){
-  return(
+function Intro() {
+  return (
     <div>
       <video loop autoPlay muted id="background">
-        <source src={require('./assets/neon-background.mp4')}/>
+        <source src={require('/src/assets/neon-background.mp4')} />
       </video>
     </div>
-  )
+  );
 }
 
 export default function App() {
